@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.object{
+    top:20%;
+}
+
 .controlPanel {
     width: 98.4%;
     height: auto;

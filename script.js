@@ -7,8 +7,8 @@ createButton.onclick = () => {
     let color = document.getElementById('color').value;
 
     let object = document.createElement('div')
-    object.setAttribute('class', 'object')
     object.style.position = 'absolute'
+    object.setAttribute('class', 'object')
     object.style.width = width + 'px'
     object.style.height = height + 'px'
     object.style.backgroundColor = `${color}`

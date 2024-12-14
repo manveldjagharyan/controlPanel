@@ -69,7 +69,7 @@ createButton.onclick = () => {
     //.....................TOP............................//
 
     let top = document.getElementById('top')
-    let toTop = 200;
+    let toTop = 80;
     top.onclick = () => {
         object.style.top = (toTop += 15) + 'px'
     }
